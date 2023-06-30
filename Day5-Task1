@@ -1,0 +1,30 @@
+Qus 1 : For the given JSON iterate over all foe loops (for , for in, for of, for each) 
+var myProfile = {
+  name: "Vignesh",
+  age: 27,
+  city: "Trichy",
+  state: "Tamilnadu"
+};
+for (let key in myProfile) {
+  console.log(key, myProfile[key]);
+}
+
+for (let key in myProfile) {
+  if (myProfile.hasOwnProperty(key)) {
+    console.log(key, myProfile[key]);
+  }
+}
+// Convert JSON object to an array of key-value pairs
+var entries = Object.entries(myProfile);
+
+for (let [key, value] of entries) {
+  console.log(key, value);
+}
+// Convert JSON object to an array of values
+var values = Object.values(myProfile);
+
+values.forEach((value, key) => {
+  console.log(key, value);
+});
+
+
