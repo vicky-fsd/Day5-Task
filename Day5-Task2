@@ -1,0 +1,74 @@
+{
+  "basics": {
+    "name": "Vignesh",
+    "email": "vk1996vignesh@gamil.com",
+    "phone": "8526893918",
+    "degree": "B.E Mechanical Engineering",
+    "website": "i will develop soon",
+    "summary": "This is Vignesh Learning Codes for become a Full Stack Developer",
+    "location": {
+      "address": "Panikkan Street, Woraiyur",
+      "postalCode": "620003",
+      "city": "Trichy",
+      "countryCode": "IND",
+      "region": "Asia"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "vicky-fsd",
+        "url": "https://github.com/vicky-fsd"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "TVS Motors",
+      "position": "Team Leader",
+      "startDate": "2017-07-06",
+      "endDate": "2023-05-31)",
+      "summary": "handling Team members togenerate leads and followup to close the retail sales",
+      "highlights": [
+        "achived highest number os sales in a month (71 vehicles)"
+        "achived Customet satisfaction Award 2 times feom TVSM"
+        "Attended many TVSM programs about DSE knowlage and new prodect lauchings"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Shri Angalamman College of Engineering and Technolgy",
+      "area": "Mechanical Engineering",
+      "studyType": "Regular",
+      "startDate": "2013",
+      "endDate": "2017",
+      "gpa": "6.8",
+      "courses": [
+        ""
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java Scipt Basics (e.g. 'Programming Languages')",
+      "level": "Beginner",
+      "keywords": [
+        "Keywords under this category (e.g. 'Java', 'C++', etc)"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Tamil, English",
+      "fluency": "Tamil"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": [
+        "Cricket"
+      ]
+    }
+  ]
+}
