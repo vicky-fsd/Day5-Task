@@ -1,0 +1,46 @@
+Qus 1 : Read about the difference between  window ,screen and document in js
+  Ans : 
+        Window: The window object represents an instance of a web browser window.
+                The window object provides a global scope for JavaScript code running in a web page.
+                It represents the current window or tab that the user is interacting with and provides methods and properties to control and interact with it.
+
+        Some common operations performed using the window object include:
+
+        * Controlling the browser window size and position.
+        * Navigating to different URLs.
+        * Opening new browser windows or tabs.
+        * Displaying alert dialogs.
+        * Setting and retrieving cookies.
+
+        Screen: The screen object represents the user's screen or monitor.
+                It provides information about the user's display capabilities and properties.
+                The screen object is a property of the window object, so you can access it using window.screen.
+
+        Some useful properties of the screen object include:
+       * screen.width and screen.height provide the screen's dimensions in pixels.
+       * screen.availWidth and screen.availHeight provide the available screen dimensions (excluding operating system elements like the taskbar).
+       * screen.pixelDepth provides the color depth of the screen in bits per pixel.
+
+        Document: The document object represents the HTML document loaded in a web page. 
+                  It provides access to the content and structure of the web page, allowing JavaScript code to manipulate and interact with the page's elements.
+                  The document object is a property of the window object, so you can access it using window.document or simply document.
+
+      Some common operations performed using the document object include:
+
+       * Accessing and manipulating HTML elements and their attributes.
+       * Modifying the content of the web page.
+       * Adding or removing HTML elements dynamically.
+       * Registering event handlers to respond to user actions.
+       * Querying and modifying CSS styles.
+       * Managing form data and handling user input.
+      The document object is at the core of client-side JavaScript programming, as it enables dynamic and interactive web page behavior.
+
+In summary, the window object represents the browser window or tab, 
+            the screen object represents the user's screen, and 
+            the document object represents the HTML document loaded in the browser window. 
+            They serve different purposes and provide different functionalities in JavaScript programming.
+
+
+
+
+
