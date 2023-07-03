@@ -9,17 +9,33 @@ for (let key in myProfile) {
   console.log(key, myProfile[key]);
 }
 
+/* output : name Vignesh
+              age 27
+            city Trichy
+          state Tamilnadu
+/*
+
 for (let key in myProfile) {
   if (myProfile.hasOwnProperty(key)) {
     console.log(key, myProfile[key]);
   }
 }
+/* output : name Vignesh
+              age 27
+            city Trichy
+          state Tamilnadu
+/*
 // Convert JSON object to an array of key-value pairs
 var entries = Object.entries(myProfile);
 
 for (let [key, value] of entries) {
   console.log(key, value);
 }
+/* output : name Vignesh
+              age 27
+            city Trichy
+          state Tamilnadu
+/*
 // Convert JSON object to an array of values
 var values = Object.values(myProfile);
 
@@ -27,4 +43,9 @@ values.forEach((value, key) => {
   console.log(key, value);
 });
 
+/* output : 0 Vignesh
+            1 27
+            2 Trichy
+            3 Tamilnadu
+/*
 
